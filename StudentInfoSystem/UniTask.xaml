@@ -1,0 +1,15 @@
+﻿<Window x:Class="StudentInfoSystem.UniTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentInfoSystem"
+        mc:Ignorable="d"
+        Title="UniTask" Height="450" Width="800">
+    <Grid>
+        <Label Content="Enter in test mode?" Margin="276,46,276,313"></Label>
+        <Button x:Name="btnYes" Content="YES" HorizontalAlignment="Left" Margin="280,126,0,0" VerticalAlignment="Top" Click="btnYes_Click"/>
+        <Button x:Name="btnNo" Content="NO" HorizontalAlignment="Left" Margin="360,126,0,0" VerticalAlignment="Top" Click="btnNo_Click"/>
+
+    </Grid>
+</Window>
