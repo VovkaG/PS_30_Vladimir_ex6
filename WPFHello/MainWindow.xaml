@@ -9,13 +9,13 @@
     <Grid x:Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
-            <ColumnDefinition Width="301*"/>
+            <ColumnDefinition Width="310*"/>
             <ColumnDefinition Width="54*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Hello, WPF!" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Height="40" Width="177" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="btnHello" Content="Hello!" HorizontalAlignment="Left" Margin="142,180,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="15,74,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="64,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="WPF" HorizontalAlignment="center" Margin="15,10,0,0" VerticalAlignment="Top" Height="40" Width="177" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnHello" Content="Hello there!" HorizontalAlignment="Center" Margin="124,180,0,0" VerticalAlignment="Top" Click="Button_Click" Width="83"/>
+        <Label x:Name="lblName" Content="Name1:" HorizontalAlignment="Left" Margin="15,74,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="90,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <GroupBox x:Name="gbUser" Header="" Margin="10,5,87,208" RenderTransformOrigin="0.5,0.5">
             <GroupBox.RenderTransform>
                 <TransformGroup>
@@ -26,11 +26,11 @@
                 </TransformGroup>
             </GroupBox.RenderTransform>
         </GroupBox>
-        <TextBox x:Name="txtName1" HorizontalAlignment="Left" Margin="64,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtName2" HorizontalAlignment="Left" Margin="64,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblName1" Content="Name:" HorizontalAlignment="Left" Margin="15,103,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblName2" Content="Name:" HorizontalAlignment="Left" Margin="15,134,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="peopleListBox" Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=4}" Margin="157,0,10,231"/>
+        <TextBox x:Name="txtName1" HorizontalAlignment="Left" Margin="90,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtName2" HorizontalAlignment="Left" Margin="90,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblName1" Content="Name2:" HorizontalAlignment="Left" Margin="15,103,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblName2" Content="Name3:" HorizontalAlignment="Left" Margin="15,134,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="peopleListBox" Grid.Column="1" d:ItemsSource="{d:SampleData ItemCount=2}" Margin="157,0,10,231"/>
         <Button x:Name="btnGreetings" Content="Greetings" Margin="178,112,31,298" Grid.Column="1" Click="btnGreetings_Click"/>
 
     </Grid>
